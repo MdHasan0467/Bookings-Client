@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CountriesModals from "../Modals/CountriesModals";
 import CurrencyModals from "../Modals/CurrencyModals";
 import NavLogo from "../Utilities/Navbar/NavLogo";
@@ -29,10 +30,10 @@ const Navbar = () => {
             <p>?</p>
             <h1>list of progress</h1>
             <div className="flex gap-3">
-              <button className="border p-1 text-black bg-white">
+              <Link to="/authentication/sign-up" className="border p-1 text-black bg-white">
                 Register
-              </button>
-              <button className="border p-1 text-black bg-white">Login</button>
+              </Link>
+              <Link to="/authentication/sign-in" className="border p-1 text-black bg-white">Login</Link>
             </div>
           </div>
         </div>
