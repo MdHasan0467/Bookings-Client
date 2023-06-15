@@ -3,7 +3,7 @@
 const NavLogo = () => {
     return (
         <div>
-            <h1>Booking.com</h1>
+            <h1>Booking</h1>
         </div>
     );
 };
