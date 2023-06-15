@@ -4,7 +4,7 @@ import NavLogo from "../Utilities/Navbar/NavLogo";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#003580] text-white font-bold">
+    <div id="title" className="bg-[#003580] text-white font-bold">
       <div className=" max-w-screen-xl mx-auto flex justify-between px-4 py-8 sm:px-6 lg:px-8">
         <NavLogo />
 
