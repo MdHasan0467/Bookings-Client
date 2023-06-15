@@ -4,6 +4,9 @@ import Main from "../Layouts/Main";
 import { createBrowserRouter } from "react-router-dom";
 import Dashboard from "../Layouts/Dashboard";
 import MyProfile from "../Pages/MyProfile";
+import SignIn from "../Pages/SignIn";
+import Authentication from "../Layouts/Authentication";
+import SignUp from "../Pages/SignUp";
 
 export const router = createBrowserRouter([
     {
@@ -23,6 +26,27 @@ export const router = createBrowserRouter([
 
 
 {
+    path: '/authentication',
+    element: <Authentication />,
+    children : [
+        {
+            path: "/authentication/sign-in",
+            element: <SignIn />
+        },
+        {
+            path: "/authentication/sign-up",
+            element: <SignUp />
+        },
+    ]
+},
+
+
+
+
+
+
+
+{
     path: '/dashboard',
     element: <Dashboard />,
     children : [
@@ -31,7 +55,7 @@ export const router = createBrowserRouter([
             element: <MyProfile />
         }
     ]
-}
+},
 
 
 

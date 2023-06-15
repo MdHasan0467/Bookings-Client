@@ -2,10 +2,11 @@ import { IoIosBed } from "react-icons/io";
 import { FaCar } from "react-icons/fa";
 import { BsTaxiFrontFill } from "react-icons/bs";
 import { MdAttractions, MdOutlineFlightTakeoff } from "react-icons/md";
+import { Link } from "react-router-dom";
 const NavLogo = () => {
   return (
     <div>
-      <h1 className="text-4xl font-bold">Booking</h1>
+      <Link to="/" className="text-4xl font-bold">Booking</Link>
       <div className="max-w-screen-sm  mx-auto">
         <div className="flex gap-8 mt-6">
           <div className="flex  gap-3">
