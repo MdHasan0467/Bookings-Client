@@ -11,22 +11,22 @@ const Navbar = () => {
         <div>
           <div className="flex justify-between gap-10">
             <div>
-              <button onClick={() => window.currencyModals.showModal()}>
+              <button className="hover:underline" onClick={() => window.currencyModals.showModal()}>
                 BDT
               </button>
               <CurrencyModals />
             </div>
             <div>
               <div className="avatar mt-1">
-                <div className="w-6 rounded-full">
-                  <button onClick={() => window.countriesModals.showModal()}>
-                    <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                  </button>
+                <div className="w-6">
+                    <button onClick={() => window.countriesModals.showModal()}>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/2560px-Flag_of_Bangladesh.svg.png" />
+                    </button>
                   <CountriesModals />
                 </div>
               </div>
             </div>
-            <h1>???</h1>
+            <p>?</p>
             <h1>list of progress</h1>
             <div className="flex gap-3">
               <button className="border p-1 text-black bg-white">
