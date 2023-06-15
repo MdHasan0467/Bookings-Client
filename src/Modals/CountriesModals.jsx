@@ -23,6 +23,8 @@ import lebanon from "../../src/assets/flags/lebanon.png";
 import italy from "../../src/assets/flags/italy.png";
 import japan from "../../src/assets/flags/japan.png";
 import iran from "../../src/assets/flags/iran.png";
+import maldives from "../../src/assets/flags/maldives.png";
+import indonesia from "../../src/assets/flags/indonesia.png";
 
 const CountriesModals = () => {
   return (
@@ -118,6 +120,24 @@ const CountriesModals = () => {
                   <img src={egypt} />
                 </div>
                 <h1 className="text-xl ">Egypt</h1>
+              </div>
+              <div
+                title="Maldives"
+                className="gap-5 items-center flex flex-col hover:bg-gray-200  p-3"
+              >
+                <div className="avatar rounded-full w-1/3">
+                  <img src={maldives} />
+                </div>
+                <h1 className="text-xl ">Maldives</h1>
+              </div>
+              <div
+                title="Indonesia"
+                className="gap-5 items-center flex flex-col hover:bg-gray-200  p-3"
+              >
+                <div className="avatar rounded-full w-1/3">
+                  <img src={indonesia} />
+                </div>
+                <h1 className="text-xl ">Indonesia</h1>
               </div>
               <div
                 title="Bangladesh"

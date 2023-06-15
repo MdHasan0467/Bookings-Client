@@ -56,6 +56,12 @@ const CurrencyModals = () => {
                 <h1 className="font-bold">Denmark Krone</h1> DKK
               </div>
               <div className=" hover:bg-gray-200 p-3">
+                <h1 className="font-bold">Maldivian Rufiyaa</h1> MVR
+              </div>
+              <div className=" hover:bg-gray-200 p-3">
+                <h1 className="font-bold">Indonesian rupiah</h1> IDR
+              </div>
+              <div className=" hover:bg-gray-200 p-3">
                 <h1 className="font-bold">Egypt Pound</h1> EGP
               </div>
               <div className=" hover:bg-gray-200 p-3">
