@@ -6,7 +6,6 @@ const TrendingDestinations = () => {
             <h1 className="lg:ml-20 ml-10 text-2xl font-semibold">Trending destinations</h1>
             <p className="lg:ml-20 ml-10 mb-3">Most popular choices for travellers from Bangladesh</p>
 
-
             <div className=" lg:mx-10">
             <div className="grid m-5 grid-cols-1 lg:grid-cols-2 gap-5">
                 
