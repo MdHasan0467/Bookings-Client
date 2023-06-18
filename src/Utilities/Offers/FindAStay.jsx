@@ -14,7 +14,7 @@ const FindAStay = () => {
                     </div>
                 </div>
 
-                <img className="col-span-1 h-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh00VbPjud8t8gECWZdI4YIqbiVrT3I4-5JA&usqp=CAU" alt="Movie"/>
+                <img className="col-span-1 h-full" src="https://quaysidehotel.co.uk/wp-content/uploads/2022/09/Benefits-to-booking-a-room-directly-with-a-hotel-over-a-third-party-travel-site.jpg" alt="Booking"/>
             </div>
         </div>
     );
